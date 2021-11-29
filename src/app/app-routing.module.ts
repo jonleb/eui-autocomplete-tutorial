@@ -5,8 +5,7 @@ const routes: Routes = [
     { path: '', redirectTo: 'screen/home', pathMatch: 'full' },
     { path: 'index.jsp', redirectTo: 'screen/home' },
     { path: 'screen/home', loadChildren: './features/home/home.module#Module' },
-    { path: 'screen/module1', loadChildren: './features/module1/module1.module#Module' },
-    { path: 'screen/module2', loadChildren: './features/module2/module2.module#Module' },
+    { path: 'tutorials/eui-tooltip-tutorial', loadChildren: './features/eui-tooltip-tutorial/eui-tooltip-tutorial.module#Module' },
 
 ];
 
