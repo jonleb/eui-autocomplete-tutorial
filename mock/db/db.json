@@ -8,5 +8,9 @@
         },
         "userId": "doejohn",
         "email": "John.DOE@ec.europa.eu"
-    }
+    },
+    "tags": [
+        {"id":1, "name":"tutorial"}
+    ]
+
 }

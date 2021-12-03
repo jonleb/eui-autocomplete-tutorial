@@ -3,6 +3,7 @@
         "core": {
             "base": "/api",
             "userDetails": "/user-details"
-        }
+        },
+        "tags": "/api/tags"
     }
 }

@@ -20,7 +20,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
     sidebarItems = [
         { label: 'Home', url: 'screen/home', iconClass: 'eui-icon-home' },
-        { label: 'eui-tootltip-tutorial', url: 'tutorials/eui-tooltip-tutorial', iconClass: 'eui-icon-work' },
+        { label: 'eui-tootltip-tutorial', url: 'tutorials/eui-autocomplete-tutorial', iconClass: 'eui-icon-work' },
     ];
 
     constructor(
