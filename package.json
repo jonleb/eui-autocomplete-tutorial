@@ -1,6 +1,6 @@
 {
     "name": "eui-angular-app",
-    "version": "13.0.0-rc49",
+    "version": "10.5.4",
     "license": "EUPL-1.1",
     "scripts": {
         "ng": "ng",
