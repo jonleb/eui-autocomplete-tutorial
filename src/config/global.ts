@@ -1,7 +1,7 @@
 import { GlobalConfig } from '@eui/core';
 
 export const GLOBAL: GlobalConfig = {
-    appTitle: 'CSDR-app',
+    appTitle: 'eUI Autocomplete',
     i18n: {
         i18nService: {
             defaultLanguage: 'en',

@@ -3,21 +3,18 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "module": "ESNext",
+    "target": "ES2016",
+    "lib": ["es2020", "dom"],
     "sourceMap": true,
     "declaration": false,
-    "module": "es2020",
     "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
+    "emitDecoratorMetadata": false,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
-    "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
     ]
   }
 }
