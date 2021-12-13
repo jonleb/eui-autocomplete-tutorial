@@ -15,7 +15,7 @@ export class EuiAutocompleteTutorialComponent implements OnInit {
     }
 
     ngOnInit(){
-
+        console.log("init");
         this._tagService.getTags().subscribe( tags => {
             this.tagList = tags;
             console.log(tags);

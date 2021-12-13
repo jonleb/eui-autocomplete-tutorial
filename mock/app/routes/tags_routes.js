@@ -1,5 +1,5 @@
 const Tag = require('../models/tag');
-const uuid = require('uuid/v1');
+const uuid = require('uuid');
 
 module.exports = function (app, db) {
   db.then(db => {
