@@ -1,6 +1,6 @@
 {
     "name": "eui-angular-app",
-    "version": "13.0.0-rc.81",
+    "version": "13.0.2",
     "license": "EUPL-1.1",
     "scripts": {
         "ng": "ng",
@@ -19,6 +19,6 @@
     },
     "private": true,
     "dependencies": {
-        "@eui/deps-base": "13.0.0-rc.81"
+        "@eui/deps-base": "13.0.2"
     }
 }
